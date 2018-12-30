@@ -60,40 +60,7 @@ public class RandomRangeWithoutRedundancies{
         for(int el : tab6){
             System.out.print(el + " ");
         }
-
-
     }
 }
 
 
-
-
-
-
-//        int[] tab6 = new int[6];
-//        table6[0] = table[(int) (Math.random()*49)];
-//
-//        for(int i = 1; i < table6.length; i++){
-//            table6[i] = table[(int) (Math.random()*49)];
-//
-//            for(int j = i; j <= 0; j--) {
-//                if(table6[i] == table6[j]){
-//                    while(table6[i] == table6[j])
-//                    {
-//                        table6[i] = table[(int) (Math.random() * 49)];
-//                    }
-//                }
-//            }
-//        }
-//
-//        System.out.println("Random 49 numbers: ");
-//        for(int num: table){
-//            System.out.print(num+" ");
-//        }
-//
-//        System.out.println();
-//        System.out.println("Random non-duplicate 6 numbers have generated from" +
-//                " 49 random numbers");
-//        for(int num: table6){
-//            System.out.print(num + " ");
-//        }
